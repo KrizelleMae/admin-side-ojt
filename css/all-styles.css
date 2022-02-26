@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppinsp');
+
+* {
+   font-family: 'Poppins';
+   margin: 0;
+}
+
+.bg-blue {
+   background: #1c62b0;
+}
+
+.text-blue {
+   color: #0d417e;
+}
