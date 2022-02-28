@@ -1,7 +1,7 @@
 <?php 
 
 $page = "enrollment";
-$stat = "advising";
+$stat = "payment";
 
 ?>
 
@@ -15,7 +15,7 @@ $stat = "advising";
 
       <?php include '../links.php'; ?>
    </head>
-   <body class="bg-gray-100 h-screen">
+   <body>
       <?php include '../components/navbar.php'; ?>
       <div class="container mx-auto mt-10">
          <div class="flex items-center mb-13">
@@ -23,14 +23,13 @@ $stat = "advising";
                ENROLLMENT TRACKING
                <ul class="uk-breadcrumb">
                   <li><a href=""></a></li>
-                  <li><span>Advising</span></li>
+                  <li><span>Payments</span></li>
                </ul>
             </div>
          </div>
          <?php include '../components/enrollment-btn.php'; ?>
          <div class="mt-7">
             <?php include '../components/tbl-advising.php'; ?>
-            <?php include '../components/modal-advising.php'; ?>
          </div>
       </div>
    </body>

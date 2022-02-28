@@ -7,9 +7,9 @@
             >Logout <i class="fa fa-sign-out ml-3" aria-hidden="true"></i
          ></a>
       </div>
-      <div class="flex items-center mb-5">
+      <div class="flex items-center mb-7">
          <img src="<?php if($page == "enrollment" || $page =="students") {echo ".";} ; ?>./images/logo.png" class="h-14 mr-3" alt="" />
-         <p class="text-xl text-blue font-bold">
+         <p class="text-2xl text-blue font-bold ">
             Distance Learning Enrollment System
          </p>
       </div>
